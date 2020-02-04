@@ -4,7 +4,7 @@ import org.fearless.springbootintro.hello.GreetingService;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 
-@Primary
+@Primary // or @Qualifier
 @Service // or @Component
 public class SimpleGreetingService implements GreetingService {
 
